@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <title>GoesWrong Comedy || 😂😂😂😂</title>
+  </head>
+  <body>
+    <header>
+      <div id="img1">
+        <img src="chk.png" width="100px" height="100px">
+      </div>
+      <div id="hd1">
+        <b>G😂esWr🤣ng C😂medy</b>
+      </div>
+      <div>
+        <nav id="nv1">
+          <a href="#"><i class="fa fa-facebook" id="fb"></i></a>
+          <a href="#"><i class="fa fa-instagram" id="ins"></i></a>
+          <a href="#"><i class="fa fa-youtube" id="yt"></i></a>
+        </nav>
+      </div>
+    </header>
+    <nav id="nv2">
+      <div>
+        <div id="sidenavprop">
+          <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+          <a href="#">Home</a><br/>
+          <a href="#">Contact</a><br/>
+          <a href="#">About</a><br/>
+        </div>
+        <div id="main">
+          <span id="bain" onclick="opennav()">&#9776;</span>
+          <a href="#" id="bain"><i class="fa fa-home"></i></a>
+          <a href="#" id="bain"><i class="fa fa-phone"></i></a>
+          <a href="#" id="bain"><i class="fa fa-tv"></i></a>
+          <a href="#" id="bain"><i class="fa fa-user-o"></i></a>
+          <a href="#" id="bain"><i class="fa fa-book"></i></a>
+        </div>
+      </div>
+    </nav>
+  <script>
+    function opennav() {
+     document.getElementById("sidenavprop").style.width = "250px";
+     document.getElementById("main").style.marginLeft = "250px";
+   }
+
+   function closenav() {
+    document.getElementById("sidenavprop").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+  </body>
+</html>

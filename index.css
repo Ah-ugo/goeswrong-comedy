@@ -1,0 +1,61 @@
+#img1 {margin-left: 40%;}
+#hd1 {margin-left: 25%;}
+#nv1 {margin-left: 35%;
+  padding: 
+}
+#fb {padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+}
+#ins {padding: 10px;
+  background-color: #833AB4;
+  color: white;
+  border-radius: 50px;
+}
+#yt {padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+}
+#nv2 {background-color: ;
+  height: %;
+}
+
+#sidenavprop {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#sidenavprop a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+#sidenavprop .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  background-color: black;
+}
+#bain {padding: 13px;
+  text-decoration: none;
+  font-size: 17px;
+  tex
+}
